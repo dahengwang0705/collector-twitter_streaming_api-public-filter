@@ -49,4 +49,4 @@ DATA_DIR = os.path.join('.', 'data')
 """
 Files
 """
-OUTPUT_FILE = 'tweets.json'
+OUTPUT_FILE = os.path.join(DATA_DIR, 'tweets.json')
